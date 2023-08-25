@@ -37,9 +37,9 @@ class _PresionArterialState extends State<PresionArterial> {
               });
             } , child: const Text("Consultar")),
             const SizedBox(height: 10,),
-            Center(
-              child:Text("Aqui el resultado de tu consulta: $respuesta")
-            )
+            
+              Text("Aqui el resultado de tu consulta: $respuesta")
+          
             
           ],
         )
